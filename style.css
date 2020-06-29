@@ -1,0 +1,204 @@
+nav {
+  background-color: black;
+  font-weight: bold;
+}
+
+.logo {
+  width: 56px;
+  margin: -11px 0px -9px 0px;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: #bd0000;
+}
+
+.container-fluid {
+  background-color: rgb(77, 51, 17);
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  min-width: 100%;
+  color: white;
+}
+
+#welcome {
+  background-image: url(images/welcome/header.jpg);
+}
+
+#menu {
+  background-image: url(images/menu/header_menu.jpg);
+}
+
+#pictures {
+  background-image: url(images/pictures/header_pictures.jpg);
+}
+
+#restaurants {
+  background-image: url(images/restaurants/header_restaurants.jpg);
+}
+
+#contact {
+  background-image: url(images/contact/header_contact.jpg);
+}
+
+#btn_header {
+  color: white;
+  background-color: #202020;
+  border: 1px solid #3f3f3f;
+  margin: 20px 20px 20px 0px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+section {
+  background-color: lightgray;
+  height: 100%;
+  color: #202020;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px;
+  text-align: justify;
+}
+
+#left_menu {
+  background-image: url(images/menu/left_menu.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 940px;
+  margin: 40px 0px 30px 0px;
+  position: relative;
+  left: 60px;
+  z-index: 1;
+  border: 30px solid white;
+  border-radius: 3px;
+}
+
+#right_menu {
+  margin: 20px 0px 15px 0px;
+  z-index: 2;
+}
+
+.badge {
+  background-color: #bd0000;
+}
+
+.img_gallery {
+  max-height: 300px;
+  margin: 5px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+  height: 35px;
+  width: 35px;
+}
+
+footer {
+  background-color: #202020;
+  min-height: 50px;
+  color: lightgrey;
+  font-size: 14px;
+  padding: 15px;
+}
+
+footer h3 {
+  font-size: 20px;
+}
+
+#social_media li {
+  display: inline-block;
+  margin: 0px 15px 0px 15px;
+  font-size: 18px;
+}
+
+#social_media li a {
+  color: lightgrey;
+}
+
+address {
+  width: min-content;
+}
+
+address p {
+  margin: 0px;
+}
+
+.story {
+  width: 350px;
+}
+
+.map {
+  border: 0px;
+  height: 200px;
+  width: 100%;
+}
+
+footer td {
+  padding: 0px 7px 0px 7px;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Croissant One", cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li p {
+  font-size: 15px;
+  margin: 0px;
+}
+
+section h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 0px 0px 15px 0px;
+}
+
+section h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #606060;
+  margin-bottom: 20px;
+}
