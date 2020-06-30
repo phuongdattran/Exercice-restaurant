@@ -110,11 +110,14 @@ section h2 {
   margin: 5px;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
-  height: 35px;
-  width: 35px;
+.arrow {
+  font-size: 40px;
+  margin: 10px 25px 0px 25px;
+  color: #202020;
+}
+
+.arrow:hover {
+  color: #3f3f3f;
 }
 
 /*Page Restaurants*/
@@ -136,6 +139,10 @@ section table {
 form label {
   font-size: 15px;
   font-weight: 600;
+}
+
+.btn-submit {
+  background-color: #202020;
 }
 
 /*Footer----------------------------*/
