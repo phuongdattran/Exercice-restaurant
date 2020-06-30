@@ -1,3 +1,4 @@
+/*Navbar-------------------*/
 nav {
   background-color: black;
   font-weight: bold;
@@ -14,10 +15,7 @@ nav {
   color: #bd0000;
 }
 
-.container-fluid {
-  background-color: rgb(77, 51, 17);
-}
-
+/*Header-----------------------*/
 header {
   background-size: cover;
   background-position: center;
@@ -55,10 +53,24 @@ header {
   font-weight: 600;
 }
 
+/*Section------------------------*/
 section {
   background-color: lightgray;
   height: 100%;
   color: #202020;
+}
+
+section h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 0px 0px 15px 0px;
+}
+
+section h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #606060;
+  margin-bottom: 20px;
 }
 
 .panel {
@@ -70,6 +82,7 @@ section {
   text-align: justify;
 }
 
+/*Page Menu*/
 #left_menu {
   background-image: url(images/menu/left_menu.jpg);
   background-position: center;
@@ -93,6 +106,7 @@ section {
   background-color: #bd0000;
 }
 
+/*Page Pictures*/
 .img_gallery {
   max-height: 300px;
   margin: 5px;
@@ -105,6 +119,7 @@ section {
   width: 35px;
 }
 
+/*Page Restaurants*/
 .story {
   width: 350px;
 }
@@ -119,11 +134,13 @@ section table {
   font-size: 15px;
 }
 
+/*Contact*/
 form label {
   font-size: 15px;
   font-weight: 600;
 }
 
+/*Footer----------------------------*/
 footer {
   background-color: #202020;
   min-height: 50px;
@@ -136,6 +153,7 @@ footer h3 {
   font-size: 20px;
 }
 
+/*Socials*/
 #social_media li {
   display: inline-block;
   margin: 0px 15px 0px 15px;
@@ -146,6 +164,7 @@ footer h3 {
   color: lightgrey;
 }
 
+/*Contact info*/
 address {
   width: min-content;
 }
@@ -154,6 +173,7 @@ address p {
   margin: 0px;
 }
 
+/*General----------------------*/
 td {
   padding: 0px 7px 0px 7px;
 }
@@ -186,28 +206,7 @@ h4 {
   margin-bottom: 5px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 li p {
   font-size: 15px;
   margin: 0px;
-}
-
-section h1 {
-  font-size: 25px;
-  letter-spacing: 1px;
-  width: 100%;
-  padding: 0px 0px 15px 0px;
-}
-
-section h2 {
-  font-size: 22px;
-  border-bottom: 1px solid #606060;
-  margin-bottom: 20px;
 }
