@@ -1,6 +1,6 @@
 # Exercise restaurant
 
-[Look at the result](https://phuongdattran.github.io/Exercice-restaurant/)
+[Look at the result](https://phuongdattran.github.io/restaurant-css-framework/)
 
 Creation of a restaurant template to learn Bootstrap v4.
 
