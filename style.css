@@ -105,6 +105,25 @@ section {
   width: 35px;
 }
 
+.story {
+  width: 350px;
+}
+
+.map {
+  border: 0px;
+  height: 200px;
+  width: 100%;
+}
+
+section table {
+  font-size: 15px;
+}
+
+form label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
 footer {
   background-color: #202020;
   min-height: 50px;
@@ -135,17 +154,7 @@ address p {
   margin: 0px;
 }
 
-.story {
-  width: 350px;
-}
-
-.map {
-  border: 0px;
-  height: 200px;
-  width: 100%;
-}
-
-footer td {
+td {
   padding: 0px 7px 0px 7px;
 }
 
