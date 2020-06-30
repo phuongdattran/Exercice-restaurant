@@ -52,20 +52,20 @@ header {
 }
 
 /*Section------------------------*/
-section {
+.content {
   background-color: lightgray;
   height: 100%;
   color: #202020;
 }
 
-section h1 {
+.content h1 {
   font-size: 25px;
   letter-spacing: 1px;
   width: 100%;
   padding: 0px 0px 15px 0px;
 }
 
-section h2 {
+.content h2 {
   font-size: 22px;
   border-bottom: 1px solid #606060;
   margin-bottom: 20px;
