@@ -10,9 +10,7 @@ nav {
 }
 
 .active {
-  text-decoration: underline;
-  text-underline-offset: 6px;
-  color: #bd0000;
+  border-bottom: 2px solid #bd0000;
 }
 
 /*Header-----------------------*/
